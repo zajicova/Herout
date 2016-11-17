@@ -1,0 +1,44 @@
+#BlueJ class context
+comment0.target=void\ smaz()
+comment0.text=\nSmaze\ platno,\ presneji\ smaze\ vsechny\ obrazce\ na\ platne.\nTato\ metoda\ by\ mela\ byr\ definovana\ jako\ metodoa\ instance,\nprotoze\ je\ instance\ jedinacek,\nbyla\ metoda\ pro\ snazsi\ dostupnost\ definovana\ jako\ metoda\ tridy.\nJinak\ by\ totiz\ bylo\ potreba\ vytvorit\ pred\ smazanim\ platna\ jeho\ instanci.\n\n
+comment1.target=Platno\ getPlatno()
+comment1.text=\nJedina\ metoda\ umoznujici\ ziskat\ odkaz\ na\ instanci\ platna.\nVraci\ vsak\ pokazde\ odkaz\ na\ stejnou\ instanci,\ protoze\ tato\ instance\nje\ jedinacek.\ Pokud\ instance\ pri\ volani\ metody\ jeste\ neexistuje,\nmetoda\ instanci\ vytvori.\n\n@return\ Odkaz\ na\ instanci\ tridy\ Platno.\n\n
+comment10.params=sirka\ vyska
+comment10.target=void\ setRozmer(int,\ int)
+comment10.text=\nNastavi\ novy\ rozmer\ platna\ zadanim\ jeho\ vysky\ a\ sirky.\n\n@param\ \ sirka\ \ Nova\ sirka\ platna\ v\ bodech\n@param\ \ vyska\ \ Nova\ vyska\ platna\ v\ bodech\n\n
+comment11.target=String\ toString()
+comment11.text=\nPrevede\ instanci\ na\ retezec.\ Pouziva\ se\ predevsim\ pri\ ladeni.\n\n@return\ Retezcova\ reprezentace\ dane\ instance.\n\n
+comment12.params=obrazec
+comment12.target=void\ zapln(Shape)
+comment12.text=\nNakresli\ zadany\ obrazec\ a\ vybarvi\ jej\ barvou\ popredi\ platna.\n\n@param\ \ obrazec\ \ Kresleny\ obrazec\n\n
+comment13.params=obrazec
+comment13.target=void\ smaz(Shape)
+comment13.text=\nSmaze\ zadany\ obrazec\ na\ platne;\ obrazec\ vsak\ stale\ existuje,\njenom\ neni\ videt.\ Smaze\ se\ totiz\ tak,\ ze\ se\ nakresli\ barvou\ pozadi.\n\n@param\ \ obrazec\ \ \ Obrazec,\ ktery\ ma\ byt\ smazan\n\n
+comment14.params=text\ x\ y\ barva
+comment14.target=void\ kresliString(String,\ int,\ int,\ Barva)
+comment14.text=\nVypise\ na\ platno\ text\ aktualnim\ pismem\ a\ aktualni\ barvou\ popredi.\n\n@param\ \ text\ \ \ Zobrazovany\ text\n@param\ \ x\ \ \ \ \ \ x-ova\ souradnice\ textu\n@param\ \ y\ \ \ \ \ \ y-ova\ souradnice\ textu\n@param\ \ c\ \ \ \ \ \ Barva\ zadana\ jako\ textovy\ retezec\n\n
+comment15.params=x1\ y1\ x2\ y2\ barva
+comment15.target=void\ kresliCaru(int,\ int,\ int,\ int,\ Barva)
+comment15.text=\nNakresli\ na\ platno\ usecku\ se\ zadanymi\ krajnimi\ body.\nUsedku\ vykresli\ aktualni\ barvou\ popredi.\n\n@param\ \ x1\ \ \ \ x-ova\ souradnice\ pocatku\n@param\ \ y1\ \ \ \ y-ova\ souradnice\ pocatku\n@param\ \ x2\ \ \ \ x-ova\ souradnice\ konce\n@param\ \ y2\ \ \ \ x-ova\ souradnice\ konce\n@param\ \ barva\ Barva\ usecky\n\n
+comment16.target=void\ pripravObrazek()
+comment16.text=\nNastavi\ viditelnost\ platna.\nPri\ nastaveni\ viditelneho\ platna\ je\ presune\ do\ popredi.\nLze\ ji\ proto\ pouzit\ i\ pro\ presun\ jiz\ viditelneho\ platna\ do\ popredi.\n\n@param\ visible\ logicka\ hodnota\ pozadovane\ viditelnost\ (true\=viditelne)\n\n
+comment2.target=Platno()
+comment2.text=\nImplicitni\ (a\ jediny)\ konstruktor\ -\ je\ volan\ pouze\ jednou.\n\n
+comment3.target=boolean\ isViditelne()
+comment3.text=\nPoskytuje\ informaci\ o\ aktualni\ viditelnosti\ okna.\n\n@return\ Je-li\ okno\ viditelne,\ vraci\ <b>true</b>,\ jinak\ vraci\ <b>false</b>\n\n
+comment4.params=viditelne
+comment4.target=void\ setViditelne(boolean)
+comment4.text=\nNastavi\ viditelnost\ platna.\n\n@param\ Viditelny\ logicka\ hodnota\ pozadovane\ viditelnost\ (true\=viditelne)\n\n
+comment5.target=Barva\ getBarvaPozadi()
+comment5.text=\nVrati\ aktualni\ barvu\ pozadi.\n\n@return\ \ \ Nastavena\ barva\ pozadi\n\n
+comment6.params=barva
+comment6.target=void\ setBarvaPozadi(Barva)
+comment6.text=\nNastavi\ pro\ platno\ barvu\ pozadi.\n\n@param\ barva\ \ Nastavovana\ barva\ pozadi\n\n
+comment7.params=barva
+comment7.target=void\ setBarvaPopredi(Barva)
+comment7.text=\nNastavi\ pro\ platno\ barvu\ popredi.\n\n@param\ \ barva\ \ Nastavovana\ barva\ popredi\n\n
+comment8.target=int\ getSirka()
+comment8.text=\nVrati\ sirku\ platna.\n\n@return\ \ Aktualni\ sirka\ platna\ v\ bodech\n\n
+comment9.target=int\ getVyska()
+comment9.text=\nVrati\ vysku\ platna.\n\n@return\ \ Aktualni\ vyska\ platna\ v\ bodech\n\n
+numComments=17

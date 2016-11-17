@@ -1,0 +1,72 @@
+#BlueJ class context
+comment0.target=int\ getKrok()
+comment0.text=\nVrati\ velikost\ implicitniho\ kroku,\ o\ ktery\ se\ instance\ presune\npri\ volani\ bezparametrickych\ metod\ presunu.\n\n@return\ Velikost\ implicitniho\ kroku\ v\ bodech\n\n
+comment1.params=velikost
+comment1.target=void\ setKrok(int)
+comment1.text=\nNastavi\ velikost\ implicitniho\ kroku,\ o\ ktery\ se\ instance\ presune\npri\ volani\ bezparametrickych\ metod\ presunu.\n\n@param\ velikost\ \ Velikost\ implicitniho\ kroku\ v\ bodech;<br/>\nmusi\ platit\:\ \ 0\ <\=\ velikost\ <\=\ 100\n\n
+comment10.target=int\ getSirka()
+comment10.text=\nVrati\ sirku\ instance.\n\n@return\ \ Sirka\ instance\ v\ bodech\n\n
+comment11.target=int\ getVyska()
+comment11.text=\nVrati\ vysku\ instance.\n\n@return\ \ Vyska\ instance\ v\ bodech\n\n
+comment12.params=rozmer
+comment12.target=void\ setRozmer(int)
+comment12.text=\nNastavi\ novy\ "ctvercovy"\ rozmer\ instance\ -\nna\ zadany\ rozmer\ se\ nastavi\ vyska\ i\ sirka.\n\n@param\ rozmer\ \ Nove\ nastavovany\ rozmer\ v\ obou\ smerech;\ rozmer>0\n\n
+comment13.params=sirka\ vyska
+comment13.target=void\ setRozmer(int,\ int)
+comment13.text=\nNastavi\ nove\ rozmery\ instance.\n\n@param\ sirka\ \ \ \ Nove\ nastavovana\ sirka;\ sirka>0\n@param\ vyska\ \ \ \ Nove\ nastavovana\ vyska;\ vyska>0\n\n
+comment14.target=Barva\ getBarva()
+comment14.text=\nVrati\ barvu\ instance.\n\n@return\ \ Instance\ tridy\ Barva\ definujici\ nastavenou\ barvu.\n\n
+comment15.params=nova
+comment15.target=void\ setBarva(Barva)
+comment15.text=\nNastavi\ novou\ barvu\ instance.\n\n@param\ nova\ \ Pozadovana\ nova\ barva.\n\n
+comment16.target=Smer8\ getSmer()
+comment16.text=\nVrati\ smer\ instance.\ tj.\ smer,\ co\ nejz\ je\ otocen\ vrchol.\n\n@return\ \ Instance\ tridy\ Smer8\ definujici\ nastaveny\ smer.\n\n
+comment17.params=novy
+comment17.target=void\ setSmer(Smer8)
+comment17.text=\nNastavi\ novy\ smer\ instance.\n\n@param\ novy\ \ Pozadovany\ novy\ smer.\n\n
+comment18.target=String\ getNazev()
+comment18.text=\nVrati\ nazev\ instance,\ tj.\ nazev\ jeji\ tridy\ nasledovany\ poradim.\n\n@return\ \ Retezec\ s\ nazvem\ instance.\n\n
+comment19.target=String\ toString()
+comment19.text=\nPrevede\ instanci\ na\ retezec.\ Pouziva\ se\ predevsim\ pri\ ladeni.\n\n@return\ Retezcova\ reprezentace\ dane\ instance.\n\n
+comment2.target=Trojuhelnik()
+comment2.text=\nVytvori\ novou\ instanci\ s\ implicitnimi\ rozmery,\ umistenim,\ barvou\na\ natocenim.\nInstance\ bude\ umistena\ v\ levem\ hornim\ rohu\ platna\na\ bude\ mit\ implicitni\ barvu,\nvysku\ 40\ bodu,\ sirku\ 40\ bodu\ a\ bude\ natocena\ vrocholem\ na\ sever.\n\n
+comment20.target=void\ nakresli()
+comment20.text=\nVykresli\ obraz\ sve\ instance\ na\ platno.\n\n
+comment21.target=void\ smaz()
+comment21.text=\nSmaze\ obraz\ sve\ instance\ z\ platna\ (nakresli\ ji\ barvou\ pozadi\ platna).\n\n
+comment22.params=vzdalenost
+comment22.target=void\ posunVpravo(int)
+comment22.text=\nPresune\ instanci\ o\ zadany\ pocet\ bodu\ vpravo,\npri\ zaporne\ hodnote\ parametru\ vlevo.\n\n@param\ vzdalenost\ Vzdalenost,\ o\ kterou\ se\ instance\ presune.\n\n
+comment23.target=void\ posunVpravo()
+comment23.text=\nPresune\ instanci\ o\ krok\ bodu\ vpravo.\n\n
+comment24.target=void\ posunVlevo()
+comment24.text=\nPresune\ instanci\ o\ krok\ bodu\ vlevo.\n\n
+comment25.params=vzdalenost
+comment25.target=void\ posunDolu(int)
+comment25.text=\nPresune\ instanci\ o\ zadany\ pocet\ bodu\ dolu,\npri\ zaporne\ hodnote\ parametru\ nahoru.\n\n@param\ vzdalenost\ \ \ Pocet\ bodu,\ o\ ktere\ se\ instance\ presune.\n\n
+comment26.target=void\ posunDolu()
+comment26.text=\nPresune\ instanci\ o\ krok\ bodu\ dolu.\n\n
+comment27.target=void\ posunVzhuru()
+comment27.text=\nPresune\ instanci\ o\ krok\ bodu\ nahoru.\n\n
+comment28.target=int[]\ getVrcholy()
+comment28.text=\nVrati\ matici\ se\ souradnicemi\ vrcholu\ daneho\ trojuhelniku.\n\n@return\ Pozadovana\ matice\n\n
+comment3.params=x\ y\ sirka\ vyska
+comment3.target=Trojuhelnik(int,\ int,\ int,\ int)
+comment3.text=\nVytvori\ novou\ instanci\ se\ zadanou\ polohou\ a\ rozmery\na\ implicitni\ barvou\ a\ smerem\ natoceni.\n\n@param\ x\ \ \ \ \ \ \ x-ova\ souradnice\ instance,\ x>\=0,\ x\=0\ ma\ levy\ okraj\ platna\n@param\ y\ \ \ \ \ \ \ y-ova\ souradnice\ instance,\ y>\=0,\ y\=0\ ma\ horni\ okraj\ platna\n@param\ sirka\ \ \ Sirka\ vytvarene\ instance,\ \ sirka\ >\=\ 0\n@param\ vyska\ \ \ Vyska\ vytvarene\ instance,\ \ vyska\ >\=\ 0\n\n
+comment4.params=x\ y\ sirka\ vyska\ smer
+comment4.target=Trojuhelnik(int,\ int,\ int,\ int,\ Smer8)
+comment4.text=\nVytvori\ novou\ instanci\ se\ zadanou\ polohou,\ rozmery\ a\ smerem\ natoceni\na\ s\ implicitni\ barvou.\n\n@param\ x\ \ \ \ \ \ \ x-ova\ souradnice,\ x>\=0,\ x\=0\ ma\ levy\ okraj\ platna\n@param\ y\ \ \ \ \ \ \ y-ova\ souradnice,\ y>\=0,\ y\=0\ ma\ horni\ okraj\ platna\n@param\ sirka\ \ \ Sirka\ instance,\ \ \ sirka\ >\=\ 0\n@param\ vyska\ \ \ Vyska\ instance,\ \ \ vyska\ >\=\ 0\n@param\ smer\ \ \ \ Smer,\ do\ nejz\ bude\ natocen\ vrchol\ trojuhelniku\ -\nje\ treba\ zadat\ nekterou\ z\ instanci\ tridy\ Smer8\n\n
+comment5.params=x\ y\ sirka\ vyska\ barva
+comment5.target=Trojuhelnik(int,\ int,\ int,\ int,\ Barva)
+comment5.text=\nVytvori\ novou\ instanci\ se\ zadanymi\ rozmery,\ polohou\ a\ barvou.\nSmer\ natoceni\ bude\ implicitni,\ tj.\ na\ sever.\n\n@param\ x\ \ \ \ \ \ \ x-ova\ souradnice\ instance,\ x>\=0,\ x\=0\ ma\ levy\ okraj\ platna\n@param\ y\ \ \ \ \ \ \ y-ova\ souradnice\ instance,\ y>\=0,\ y\=0\ ma\ horni\ okraj\ platna\n@param\ sirka\ \ \ Sirka\ vytvarene\ instance,\ \ sirka\ >\=\ 0\n@param\ vyska\ \ \ Vyska\ vytvarene\ instance,\ \ vyska\ >\=\ 0\n@param\ barva\ \ \ Barva\ vytvarene\ instance\n\n
+comment6.params=x\ y\ sirka\ vyska\ barva\ smer
+comment6.target=Trojuhelnik(int,\ int,\ int,\ int,\ Barva,\ Smer8)
+comment6.text=\nVytvori\ novou\ instanci\ se\ zadanymi\ rozmery,\ polohou,\ barvou,\ni\ smerem\ natoceni.\n\n@param\ x\ \ \ \ \ \ \ x-ova\ souradnice\ instance,\ x>\=0,\ x\=0\ ma\ levy\ okraj\ platna\n@param\ y\ \ \ \ \ \ \ y-ova\ souradnice\ instance,\ y>\=0,\ y\=0\ ma\ horni\ okraj\ platna\n@param\ sirka\ \ \ Sirka\ vytvarene\ instance,\ \ sirka\ >\=\ 0\n@param\ vyska\ \ \ Vyska\ vytvarene\ instance,\ \ vyska\ >\=\ 0\n@param\ barva\ \ \ Barva\ vytvarene\ instance\n@param\ smer\ \ \ \ Smer,\ do\ nejz\ bude\ natocen\ vrchol\ trojuhelniku\ -\nje\ treba\ zadat\ nekterou\ z\ instanci\ tridy\ Smer8\n\n
+comment7.target=int\ getX()
+comment7.text=\nVrati\ x-ovou\ souradnici\ pozice\ instance.\n\n@return\ \ x-ova\ souradnice.\n\n
+comment8.target=int\ getY()
+comment8.text=\nVrati\ y-ovou\ souradnici\ pozice\ instance.\n\n@return\ \ y-ova\ souradnice.\n\n
+comment9.params=x\ y
+comment9.target=void\ setPozice(int,\ int)
+comment9.text=\nNastavi\ novou\ pozici\ instance.\n\n@param\ x\ \ \ Nova\ x-ova\ pozice\ instance\n@param\ y\ \ \ Nova\ y-ova\ pozice\ instance\n\n
+numComments=29

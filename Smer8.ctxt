@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=dx\ dy\ zkratka\ nazev\ nazevBHC
+comment0.target=Smer8(int,\ int,\ String,\ String,\ String)
+comment0.text=\nVytvori\ novy\ smer\ a\ zapamatuje\ si\ ruzne\ verze\ jeho\ nazvu.\n\n
+comment1.target=Smer8\ celemVzad()
+comment1.text=\nVrati\ smer\ otoceny\ o\ 180%.\nOproti\ metode\ celemVzad\ nepotrebuje\ pretypovavat\ vysledek\ na\ Smer8.\n\n@return\ Smer\ objektu\ po\ vyplneni\ prikazu\ celem\ vzad\n\n
+comment2.target=Smer8\ vlevoVbok()
+comment2.text=\nVrati\ smer\ otoceny\ o\ 90%\ vlevo.\nOproti\ metode\ vlevoVbok\ nepotrebuje\ pretypovavat\ vysledek\ na\ Smer8.\n\n@return\ Smer\ objektu\ po\ vyplneni\ prikazu\ vlevo\ v\ bok\n\n
+comment3.target=Smer8\ vpravoVbok()
+comment3.text=\nVrati\ smer\ otoceny\ o\ 90%\ vpravo.\nOproti\ metode\ vpravoVbok\ nepotrebuje\ pretypovavat\ vysledek\ na\ Smer8.\n\n@return\ Smer\ objektu\ po\ vyplneni\ prikazu\ vpravo\ v\ bok\n\n
+comment4.target=Smer8\ nalevoVpric()
+comment4.text=\nVrati\ smer\ otoceny\ o\ 45%\ vlevo.\nOproti\ metode\ nalevoVpric\ nepotrebuje\ pretypovavat\ vysledek\ na\ Smer8.\n\n@return\ Smer\ objektu\ po\ vyplneni\ prikazu\ nalevo\ vpric\n\n
+comment5.target=Smer8\ napravoVpric()
+comment5.text=\nVrati\ smer\ otoceny\ o\ 45%\ vpravo.\nOproti\ metode\ napravoVpric\ nepotrebuje\ pretypovavat\ vysledek\ na\ Smer8.\n\n@return\ Smer\ objektu\ po\ vyplneni\ prikazu\ napravo\ vpric\n\n
+comment6.params=x
+comment6.target=int\ dalsiX(int)
+comment6.text=\nVrati\ x-vou\ souradnici\ sousedniho\ policka\ v\ danem\ smeru.\n\n@param\ x\ x-ova\ souradnice\ stavajiciho\ policka\n\n@return\ x-ova\ souradnice\ sousedniho\ policka\ v\ danem\ smeru\n\n
+comment7.params=y
+comment7.target=int\ nextY(int)
+comment7.text=\nVrati\ y-vou\ souradnici\ sousedniho\ policka\ v\ danem\ smeru.\n\n@param\ y\ y-ova\ souradnice\ stavajiciho\ policka\n\n@return\ y-ova\ souradnice\ sousedniho\ policka\ v\ danem\ smeru\n\n
+numComments=8
